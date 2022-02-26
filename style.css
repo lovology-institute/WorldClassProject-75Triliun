@@ -1,0 +1,244 @@
+body {
+    background-color: white;
+}
+/* .nvbrtop1 {
+    background-color: #ff0066;
+    z-index: 2;
+} */
+
+.nvbr1 {
+    background-color: #ff0066;
+}
+.nvbrlink1 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cntnr1 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: 900px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cntnr1 img {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* .mepet1 {
+    margin-bottom: -10px;
+    padding: 0px;
+} */
+
+
+
+/* 4 MENU UTAMA START*/
+.cntnr1a {
+    max-width: 900px;
+    /* border: 5px solid #333; */
+    margin: 30px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cntnr1a img {
+    width: 50%;
+    height: 50%;
+    padding: 2px;
+    /* border-radius: 10px; */
+}
+/* 4 MENU UTAMA END */
+
+
+/* 4 MENU UTAMA START*/
+.cntnr1a2 {
+    max-width: 900px;
+    /* border: 5px solid #333; */
+    margin: 30px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cntnr1a2 a {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+}
+
+.linkbtn a {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cntnr1a2 .cntnr1a2-button {
+    max-width: 200px;
+    /* border: 5px solid #333; */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* 4 MENU UTAMA END */
+
+/* 4 MENU UTAMA START*/
+.cntnr1a2 a img {
+	-webkit-transform: scale (1);
+	transform: scale (1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cntnr1a2 a:hover img {
+	-webkit-transform: scale (0.9);
+	transform: scale (0.9);
+} 
+
+.cntnr1a2 a img {
+	opacity: 1;
+    border-radius: 10px;
+    -webkit-transform: scale (1);
+	transform: scale (1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cntnr1a2 a:hover img {
+	opacity: .8;
+    border-radius: 15px;
+    -webkit-transform: scale (0.99);
+	transform: scale (0.99);
+}
+/* 4 MENU UTAMA END*/
+
+
+
+/* 333 */
+
+/* 4 MENU UTAMA START*/
+.cntnr1a3 {
+    max-width: 900px;
+    /* border: 5px solid #333; */
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cntnr1a3 a {
+    width: 25%;
+    height: 25%;
+    padding: 5px;
+}
+
+.cntnr1a3 .cntnr1a3-button {
+    max-width: 200px;
+    /* border: 5px solid #333; */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* 4 MENU UTAMA END */
+
+/* 4 MENU UTAMA START*/
+.cntnr1a3 a img {
+	-webkit-transform: scale (1);
+	transform: scale (1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cntnr1a3 a:hover img {
+	-webkit-transform: scale (0.9);
+	transform: scale (0.9);
+} 
+
+.cntnr1a3 a img {
+	opacity: 1;
+    border-radius: 10px;
+    -webkit-transform: scale (1);
+	transform: scale (1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cntnr1a3 a:hover img {
+	opacity: .6;
+    border-radius: 15px;
+    -webkit-transform: scale (0.99);
+	transform: scale (0.99);
+}
+
+
+
+
+/* 4 MENU UTAMA END*/
+
+/* 333 */
+
+.cntnr2 {
+    margin: 40px auto;
+    max-width: 900px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.mytitle1 {
+    margin-top: 30px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: #ff0066;
+}
+.mytitle2 {
+    margin-top: -30px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: #ff0066;
+}
+.mytitle3 {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #ff0066;
+}
+.mytitle3:hover {
+    color: black;
+}
+
+.konseling-klik1 {
+    display: block;
+    color: #ff0066;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.konseling-klik1:hover {
+    color: black;
+}
+
+.ftr1 {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ff0066;
+    text-align: center;
+    z-index: 2;
+}
+.cpyr1 {
+    padding: 10px;
+    color: white;
+}
+
