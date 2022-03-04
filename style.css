@@ -76,11 +76,8 @@ body {
     height: 50%;
     padding: 10px;
 }
-.cntnr1a2 a img {
-    border: 1px solid #333;
-    box-shadow: 2px 2px 2px 2px #888888;
-}
-.linkbtn a {
+
+.linkbtn {
     /* width: 100%;
     height: 100%; */
     padding-left: 5px;
@@ -99,6 +96,8 @@ body {
 
 /* 4 MENU UTAMA START*/
 .cntnr1a2 a img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0.5px #888888;
 	-webkit-transform: scale (1);
 	transform: scale (1);
 	-webkit-transition: .3s ease-in-out;
@@ -111,7 +110,7 @@ body {
 
 .cntnr1a2 a img {
 	opacity: 1;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     -webkit-transform: scale (1);
 	transform: scale (1);
 	-webkit-transition: .3s ease-in-out;
@@ -119,7 +118,7 @@ body {
 }
 .cntnr1a2 a:hover img {
 	opacity: .8;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     -webkit-transform: scale (0.99);
 	transform: scale (0.99);
 }
@@ -196,10 +195,19 @@ body {
     /* border: 5px solid #333; */
 }
 .cntnr4-button a {
-    width: 50px;
+    /* width: 50px;
     border-radius: 12px;
     border: 1px solid #333;
-    box-shadow: 2px 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px 2px #888888; */
+
+    /* ICON SAJA */
+    /* color: rgb(4, 0, 255); */
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    /* ICON SAJA */
+}
+.cntnr4-button a:hover {
+    color: black;
 }
 
 /* 4 MENU UTAMA END*/
